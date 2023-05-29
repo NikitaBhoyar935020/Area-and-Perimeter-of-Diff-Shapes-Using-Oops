@@ -38,8 +38,6 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
         {
             return length * width;
         }
-
-
         /// <summary>
         /// This method calculate the perimeter of Rectangle.
         /// </summary>
