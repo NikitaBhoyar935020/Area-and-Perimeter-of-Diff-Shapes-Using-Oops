@@ -36,7 +36,6 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
             return Math.PI * radius * radius;
         }
 
-
         /// <summary>
         /// This method calculates the perimeter of circle.
         /// </summary>
