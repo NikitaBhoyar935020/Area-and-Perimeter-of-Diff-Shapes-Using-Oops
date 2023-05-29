@@ -10,7 +10,6 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
     {
         private double height,baseoftriangle , side1 , side2;
         
-
         /// <summary>
         /// This is parameterized constructor having 4 paramters as well as pass the field to the object.
         /// </summary>
