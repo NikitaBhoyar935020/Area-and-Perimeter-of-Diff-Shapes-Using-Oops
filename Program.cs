@@ -13,9 +13,8 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
             int ShapeChoice,UserChoice;
             do
             {
-               ///This gives us choice to select the options from the ShapeChoice menu.///
-               
-
+               ///This gives us choice to select the options from the ShapeChoice menu.//
+                
                 Console.WriteLine("For what shape you want to calculate. \n1. Sqaure  \n2. Rectangle  \n3. Triangle  \n4. Circle \n0. Exit");
                 Console.Write("Please Select the number from above options: ");
                 ShapeChoice = int.Parse(Console.ReadLine());
@@ -24,15 +23,12 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
                 switch (ShapeChoice)
                 {
                     case 1:
-                        
-
                         ///This takes input from the user for the square///
                         
                         double side = 0;
                         Console.Write("Enter the of side of square:  ");
                         side = double.Parse(Console.ReadLine());
-
-
+                        
                         ///This creates object  for the Square///
                         
                         SelectedShape = new Square(side);
@@ -55,11 +51,9 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
                         break;
 
                     case 3:
-
-
+                        
                         ///This takes input from the user for the triangle///
                         
-
                         double height, baseoftriangle, side1, side2;
                         Console.Write("Please enter the height of triangle: ");
                         height = double.Parse(Console.ReadLine());
@@ -69,24 +63,20 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
                         side1 = double.Parse(Console.ReadLine());
                         Console.Write("Please enter the side2 of triangle: ");
                         side2 = double.Parse(Console.ReadLine());
-
-
+                        
                         ///This creates object for the triangle///
                         
                         SelectedShape = new Triangle(baseoftriangle, height, side1, side2);
                         break;
 
                     case 4:
-
-
+                        
                         ///This takes input  from the user for the circle///
                         
-
                         double radius;
                         Console.Write("Please enter the radius of circle: ");
                         radius = double.Parse(Console.ReadLine());
                         Shape cir = new Circle(radius);
-
 
                         ///This creates object  for the circle///
                         
@@ -94,7 +84,7 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
                         break;
 
                   case 0:
-
+                        
                         Console.WriteLine("Exiting..");
                         break;
 
@@ -144,7 +134,6 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
                             default:
                                 Console.WriteLine("Invalid choice");
                                 break;
-
                         }
                     }
 
@@ -157,7 +146,7 @@ namespace Area_and_Perimeter_of_Diff_Shapes_Using_Oops
             }
 
             while (ShapeChoice != 0);
-    
+   
         }
 
        
